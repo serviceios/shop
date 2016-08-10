@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <link rel="stylesheet" href="css/public.css">
+
+</head>
+<body>
+
+<style>
+    /* 本例子css -------------------------------------- */
+    .focus{ width:100%; height:150px;  margin:0 auto; position:relative; overflow:visible;   }
+    .focus .hd{
+        display: none;
+    }
+
+
+
+    .focus .bd{ position:relative; z-index:0; }
+    .focus .bd li img{ width:32%;  height:150px; }
+    .focus .bd li a{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0); /* 取消链接高亮 */ }
+
+    .pad{
+        padding: 0 20px 0 0px;
+        overflow: hidden;
+    }
+</style>
+
+
+<div class="main">
+
+    <div class="pad">
+
+
+    <div id="focus" class="focus">
+        <div class="hd">
+            <ul></ul>
+        </div>
+        <div class="bd">
+            <ul>
+                <li>
+                    <div class="imgs">
+                        <a>
+                             <img src="http://m.360buyimg.com/mobilecms/s720x350_jfs/t2857/82/4104349448/54705/ce043bcb/57a9b958Nd8b073be.jpg!q70.jpg" alt="">
+                        </a>
+                        <a>
+                            <img src="http://m.360buyimg.com/mobilecms/s720x350_jfs/t2857/82/4104349448/54705/ce043bcb/57a9b958Nd8b073be.jpg!q70.jpg" alt="">
+                        </a>
+                        <a>
+                            <img src="http://m.360buyimg.com/mobilecms/s720x350_jfs/t2857/82/4104349448/54705/ce043bcb/57a9b958Nd8b073be.jpg!q70.jpg" alt="">
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgs">
+                        <a>
+                            <img src="http://m.360buyimg.com/mobilecms/s720x350_jfs/t2857/82/4104349448/54705/ce043bcb/57a9b958Nd8b073be.jpg!q70.jpg" alt="">
+                        </a>
+                        <a>
+                            <img src="http://m.360buyimg.com/mobilecms/s720x350_jfs/t2857/82/4104349448/54705/ce043bcb/57a9b958Nd8b073be.jpg!q70.jpg" alt="">
+                        </a>
+                        <a>
+                            <img src="http://m.360buyimg.com/mobilecms/s720x350_jfs/t2857/82/4104349448/54705/ce043bcb/57a9b958Nd8b073be.jpg!q70.jpg" alt="">
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="imgs">
+                        <a>
+                            <img src="http://m.360buyimg.com/mobilecms/s720x350_jfs/t2857/82/4104349448/54705/ce043bcb/57a9b958Nd8b073be.jpg!q70.jpg" alt="">
+                        </a>
+                        <a>
+                            <img src="http://m.360buyimg.com/mobilecms/s720x350_jfs/t2857/82/4104349448/54705/ce043bcb/57a9b958Nd8b073be.jpg!q70.jpg" alt="">
+                        </a>
+                        <a>
+                            <img src="http://m.360buyimg.com/mobilecms/s720x350_jfs/t2857/82/4104349448/54705/ce043bcb/57a9b958Nd8b073be.jpg!q70.jpg" alt="">
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+</div>
+<script src="js/TouchSlide.1.1.js"></script>
+<script>
+    TouchSlide({
+        slideCell:"#focus",
+        titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+        mainCell:".bd ul",
+        effect:"left",
+        autoPlay:false,//自动播放
+        interTime:3000,
+        autoPage:true //自动分页
+
+    });
+
+
+
+
+</script>
+</body>
+</html>

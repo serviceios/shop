@@ -1,0 +1,174 @@
+*,
+body {
+    padding: 0;
+    margin: 0
+}
+
+a,
+a:hover,
+a:visited,
+em,
+i {
+    text-decoration: none
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+    background: #fff;
+    min-width: 320px;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    font-family: PingFangSC-Regular, Helvetica, "Droid Sans", Arial, sans-serif
+}
+
+li,
+ol,
+ul {
+    list-style: none
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+a {
+    color: #333;
+    background: 0 0;
+    -webkit-tap-highlight-color: transparent
+}
+
+a:active,
+a:focus {
+    outline: 0
+}
+
+img,
+img a {
+    border: 0;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+
+
+    font: inherit;
+    margin: 0
+}
+
+button {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+em,
+i {
+    font-style: normal
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    vertical-align: middle;
+    outline: 0
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font-size: 10px;
+    -webkit-text-size-adjust: none
+}
+/*html {font-size:10px}*/
+@media screen and (min-width:480px) and (max-width:639px) {
+    html {
+        font-size: 15px
+    }
+}
+@media screen and (min-width:640px) and (max-width:719px) {
+    html {
+        font-size: 20px
+    }
+}
+@media screen and (min-width:720px) and (max-width:749px) {
+    html {
+        font-size: 22.5px
+    }
+}
+@media screen and (min-width:750px) and (max-width:799px) {
+    html {
+        font-size: 23.5px
+    }
+}
+@media screen and (min-width:800px) and (max-width:959px) {
+    html {
+        font-size: 25px
+    }
+}
+@media screen and (min-width:960px) and (max-width:1079px) {
+    html {
+        font-size: 30px
+    }
+}
+@media screen and (min-width:1080px) {
+    html {
+        font-size: 32px
+    }
+}
